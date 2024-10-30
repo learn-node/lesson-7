@@ -1,0 +1,11 @@
+### Get all items
+GET http://localhost:3000/students
+Accept: application/json
+
+### Create a new item
+POST http://localhost:3000/students
+Content-Type: application/json
+
+{
+  "name": "Student 2"
+}

@@ -8,7 +8,7 @@ POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-  "name": "Jane Doe",
+  "name": "1 Jane Doe",
   "email": "jane.doe@example.com"
 }
 
@@ -27,5 +27,5 @@ Content-Type: application/json
 {
   "languageCode": "en",
   "preferredCommunication": 1,
-  "userId": 1
+  "userId": 3
 }
